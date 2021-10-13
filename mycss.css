@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+/*----------------------------------------------NAVBAR + HEADER------------------------------------------------*/
+
+.nav-item {
+	padding-left: 20px;
+}
+
+.nav-link {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191F;
+}
+
+.nav-link:hover {
+	color: #606060;
+}
+
+.top-h1 {
+	position: relative;
+	width: 540px;
+	height: 196px;
+	left: 0px;
+	top: 169px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 98px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191F;
+}
+
+.top-content {
+	position: relative;
+	width: 540px;
+	height: 64px;
+	left: 0px;
+	top: 184px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191F;
+}
+
+.bttn3 {
+	font-size: 16px;
+	color: white;
+}
+
+.bttn {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 12px 32px;
+	position: static;
+	width: 115px;
+	height: 48px;
+	left: 0px;
+	top: 308px;
+	background: #8C30F5;
+	border-radius: 6px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 32px 0px;
+}
+
+.bttn:hover {
+	color: white;
+	box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.4s linear;
+}
+
+
+/*------------------------------------------------------BLOG-------------------------------------------------------*/
+
+#blog-section {
+	margin-top: 70px;
+}
+
+#blog-h2 {
+	position: static;
+	width: 730px;
+	height: 64px;
+	left: 0px;
+	top: 0px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191F;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 8px 0px;
+}
+
+#blog-cards-parent {
+	margin-top: 48px;
+}
+
+#cards-row-2 {
+	margin-top: 64px;
+}
+
+.phone {
+	height: 350px;
+	width: 350px;
+}
+
+.blog-head {
+	position: static;
+	width: 350px;
+	height: 32px;
+	left: 0px;
+	top: 0px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191F;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 8px 0px;
+}
+
+.blog-sub {
+	position: static;
+	width: 350px;
+	height: 26px;
+	left: 0px;
+	top: 40px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191F;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	/*margin: 8px 0px;*/
+	margin-bottom: 54px;
+
+}
+
+/*------------------------------------------------FOOTER--------------------------------------------*/
+
+.footer {
+	position: absolute;
+	width: 100%;
+	height: 280px;
+	left: 0px;
+	background: #000000;
+}
+
+.get-app {
+	position: static;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #D9DBE1;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.foot-line1,
+.foot-line2 {
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	height: 26px;
+	color: #FFFFFF;
+	flex: none;
+	flex-grow: 0;
+}
+
+.foot-line2 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.foot-line1 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.foot-line3 {
+	height: 24px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #D9DBE1;
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	margin: 24px 0px;
+}
+
+/*-------------------------------------------Bottom Waitlist------------------------------------------------------*/
+.bottom-txt {
+	position: static;
+	width: 445px;
+	height: 108px;
+	left: 0px;
+	top: 0px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 54px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 32px 0px;
+}
+
+.search-white {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 14px 16px;
+	position: static;
+	width: 248px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	background: #F4F5F7;
+	border-radius: 5px 0px 0px 5px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+.search-black {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 14px 24px;
+	position: static;
+	width: 155px;
+	height: 48px;
+	left: 248px;
+	top: 2px;
+	background: #18191F;
+	border-radius: 0px 5px 5px 0px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+#search-white-txt {
+	position: static;
+	width: 216px;
+	height: 24px;
+	left: 16px;
+	top: 16px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #474A57;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 10px;
+}
+
+#search-black-txt {
+	position: static;
+	width: 107px;
+	height: 20px;
+	left: 24px;
+	top: 16px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 4px;
+	cursor: pointer;
+}
+/*--------------------------------------------------Key Features-----------------------------------------*/
+#features-head {
+	position: static;
+	width: 730px;
+	height: 64px;
+	left: 0px;
+	top: 0px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191F;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 8px 0px;
+}
+
+#features-div{
+	margin-top: 130px;
+}
+
+.cards-div {
+	position: absolute;
+	background: #fff;
+	width: 255px;
+	height: 200px;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	border-radius: 8px;
+}
+
+.card-h5 {
+	position: static;
+	left: 9.41%;
+	right: 9.41%;
+	top: 0%;
+	margin-top: -5px;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	font-feature-settings: 'salt' on, 'liga' off;
+	color: #18191F;
+	flex: none;
+	order: 0;
+	align-self: center;
+	flex-grow: 0;
+	margin: 26px 0px;
+	white-space: pre-wrap;
+}
+
+.icon-h5 {
+	height: 32px;
+	width: auto;
+	margin: 24px 0px;
+}
+
+.circ{
+	height: 540px;
+	width: auto;
+	margin-left: 684px;
+	margin-top: -148px;
+}
+
+
+/*--------------------------------------------------Media Queries-----------------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+	#head-img{
+		width: 450px;height: auto;
+		/*margin-top: -35px;*/
+	}
+	.top-h1{
+		font-size: 64px;
+		line-height: 80px;
+		top: 139px;
+	}
+	.top-content{
+		top: 144px;
+	}
+	.phone{
+		width: 250px;
+		height: 250px;
+	}
+	#blog-h2,#features-head{
+		font-size: 42px;
+	}
+	.cards-div{
+			width: 230px;
+			height: 180px;
+	}
+}
+
+
+
+

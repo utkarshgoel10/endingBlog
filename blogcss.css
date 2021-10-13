@@ -1,0 +1,80 @@
+.h4class{
+	position: static;
+width: 540px;
+height: 40px;
+left: 0px;
+top: 0px;
+
+/* Heading / H4 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 40px;
+/* identical to box height, or 143% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 900 */
+
+color: #18191F;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+/*margin: 83px 0px;*/
+}
+
+.h6class{
+	position: static;
+width: 540px;
+height: 30px;
+left: 0px;
+/*top: 8px;*/
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+
+color: #18191F;
+
+/*margin: 8px 0px;*/
+}
+
+
+.for-cover-photo img{
+/*position: absolute;*/
+width: 1110px;
+height: 400px;
+left: 155px;
+top: 257px;
+border-radius: 8px;
+}
+
+.content-p{
+
+width: 1110px;
+height: 494px;
+left: 155px;
+top: 728px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+color: #18191F;
+}
