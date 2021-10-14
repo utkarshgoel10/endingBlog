@@ -22,7 +22,7 @@ require('db.php');
 <nav class="navbar navbar-expand-lg">
    <div class="container" style="position: relative; top: 5px">
       <a class="navbar-brand" href="index.php">
-      <img src="logo.png" height="30.17px" width="auto" style="position: relative; top: -2px;" alt="">
+      <img src="media/logo.png" height="30.17px" width="auto" style="position: relative; top: -2px;" alt="">
       </a>
       <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -56,10 +56,10 @@ require('db.php');
             </li>
          </ul>
          <a class="navbar-brand" href="#">
-         <img src="gplay.png" height="40px" width="auto">
+         <img src="media/gplay.png" height="40px" width="auto">
          </a>
          <a class="navbar-brand" href="#">
-         <img src="applestore.png" height="40px" width="auto">
+         <img src="media/applestore.png" height="40px" width="auto">
          </a>
       </div>
    </div>
@@ -87,7 +87,7 @@ require('db.php');
       </h6>
    </div>
    <div class="for-cover-photo" style="margin-top: 24px">
-      <img src="cover.png">
+      <img src="media/cover.png">
    </div>
    <div style="margin-top: 71px;">
       <p class="content-p"><?=$post['body']?></p>
@@ -100,7 +100,7 @@ require('db.php');
    <div class="container">
       <div class="col-lg-8" style="float: left;">
          <div class="foot-logo" style="margin-top: 50px;">
-            <img src="company-logo.png" height="30px" width="auto">
+            <img src="media/company-logo.png" height="30px" width="auto">
          </div>
          <div class="foot-line1" style="margin-top: 30px;">
             <a href="#" style="order: 0;">Download Now</a>
@@ -124,12 +124,12 @@ require('db.php');
          </div>
          <div style="padding-top: 12px;">
             <a href="#">
-            <img src="applestore.png" height="40px" width="auto">
+            <img src="media/applestore.png" height="40px" width="auto">
             </a>
          </div>
          <div style="padding-top: 12px;">
             <a href="#">
-            <img src="gplay.png" height="40px" width="auto">
+            <img src="media/gplay.png" height="40px" width="auto">
             </a>
          </div>
       </div>
