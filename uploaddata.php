@@ -40,7 +40,11 @@ if(isset($_POST['submit'])){
   }
 
 
-
+    ?>
+<script type="text/javascript">
+window.location = "index.php";
+</script>      
+    <?php
 // print_r($file);
 }
 
