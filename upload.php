@@ -29,7 +29,7 @@ require('uploaddata.php');
     <input type="text" class="form-control" id="title" name="title" placeholder="Blog Title" required>
   </div>
     <div class="form-group">
-    <input type="file"  class="form-control hero-img" id="file" name="file">
+    <input type="file"  class="form-control hero-img" id="file" name="file" required>
   </div> 
       <div class="form-group">
     <input type="text" class="form-control" id="subhead" name="subhead" placeholder="SubHeading" required>
